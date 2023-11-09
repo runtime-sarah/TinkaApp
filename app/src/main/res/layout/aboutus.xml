@@ -15,11 +15,16 @@
         android:orientation="vertical"
         tools:context=".AboutUs">
 
-    <ImageView
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="517dp"
-        android:scaleType="fitXY"
-        android:src="@drawable/three" />
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:background="@color/tinka"
+        android:text="\n\n We are a Saudi brand for nail polish\n\n with non-toxic, vegan, and cruelty-free stains!
+        \n\n Our product is made in Korea.\n\n CONTACT US : info@tinka.shop\n\n Our website : https://tinka.shop\n\n
+        Follow us on instagram for inspiration,\n photos and more stains! @Tinkacosmetics\n" />
 
     <ImageView
         android:layout_width="match_parent"
